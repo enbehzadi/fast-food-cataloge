@@ -1,11 +1,15 @@
 
 import './App.css';
+import CategoryList from './CategoryList/CategoryList';
+import Header from './Header/header';
 
 function App() {
   return (
-      <h1>
-        فست فود کاتالوگ
-      </h1>
+      <div className='wrapper bg-faded-dark'>
+      <Header>
+      </Header>
+      <CategoryList></CategoryList>
+      </div>
   );
 }
 
